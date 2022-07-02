@@ -1,0 +1,37 @@
+.advantages{
+  &__item{
+    @include flex-basis(1);
+    @media screen and (min-width: 768px){
+      @include flex-basis(2);
+    }
+    @media screen and (min-width: 1200px){
+      @include flex-basis(4);
+    }
+  }
+
+    &__icon {
+      display: flex;
+      margin-bottom: 30px;
+      height: 120px;
+      align-items: center;
+      justify-content: center;
+      background-color: $team-bg-color;
+      border-radius: 4px;
+    }
+    
+    &__title {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.15;
+      text-transform: uppercase;
+      @media screen and (min-width: 768px){
+        text-align: left;
+      }
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 1.72;
+      color: $secondary-text-color;
+    }
+}

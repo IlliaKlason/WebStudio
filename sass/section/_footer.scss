@@ -1,0 +1,48 @@
+.footer {
+   padding: 60px 0;
+   background-color: $secondary-bg-color;
+   &__container {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+    @media screen and (min-width: 768px) and (min-width: 1200px){
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    }
+ }
+
+ .join {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 50%;
+    margin-top: 0;
+}
+@media screen and (min-width: 1200px) {
+  margin-top: 12px;
+}
+
+ }
+ .sub-title {
+
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 1.14;
+   text-transform: uppercase;
+   color: $headline-text-color;
+ }
+ .logo{
+  @media screen and (max-width: 1200px)  and (m-width: 1200px){
+  padding: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0;
+    font-size: 26px;
+    }
+ }
