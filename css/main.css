@@ -8,6 +8,7 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  display: block;
 }
 
 img {
@@ -148,13 +149,6 @@ body.no-scroll {
   display: none;
 }
 .contact__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
@@ -573,15 +567,6 @@ body.no-scroll {
     margin-left: auto;
   }
 }
-.menu .navigation__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
 @media screen and (min-width: 768px) {
   .menu .navigation__list {
     display: -webkit-box;
@@ -725,11 +710,6 @@ body.no-scroll {
     display: -ms-flexbox;
     display: flex;
   }
-}
-.menu .contact__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .advantages__item {
