@@ -39,6 +39,7 @@
   }
 
   &__link-policy {
+    display: inline-block;
     text-decoration: underline;
     color: $accent-color;
   }

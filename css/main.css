@@ -1392,6 +1392,7 @@ body.no-scroll {
   }
 }
 .checkbox__link-policy {
+  display: inline-block;
   text-decoration: underline;
   color: #2196f3;
 }/*# sourceMappingURL=main.css.map */
