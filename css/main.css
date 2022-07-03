@@ -158,8 +158,10 @@ body.no-scroll {
 .contact__link:hover, .contact__link:focus {
   color: #2196f3;
 }
-.contact__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .contact__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .button {
@@ -552,19 +554,12 @@ body.no-scroll {
 }
 @media screen and (min-width: 768px) {
   .menu__contact {
-    margin: 19px 0;
-    margin-left: auto;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .menu__contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0;
     margin-left: auto;
   }
 }
