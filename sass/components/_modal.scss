@@ -15,9 +15,9 @@
 }
 .is-hidden .modal {
   transform: scale(0) rotate(1deg);
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     @include transition();
-    transform: translate(-50%, -50%)  scale(0) rotate(1deg);
+    transform: translate(-50%, -50%) scale(0) rotate(1deg);
   }
 }
 .modal {
@@ -25,21 +25,20 @@
   margin-left: auto;
   margin-right: auto;
   padding: 40px;
-  overflow-y: scroll;
   background: $primary-bg-color;
   border-radius: 4px;
-  @media screen and (max-width: 1199.98px){
+  @media screen and (max-width: 1199.98px) {
     max-width: 450px;
-    transform:  scale(1) rotate(360deg);
+    transform: scale(1) rotate(360deg);
     @include transition(transform);
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     max-width: 528px;
     position: absolute;
     top: 50%;
     left: 50%;
     @include transition();
-    transform: translate(-50%, -50%)  scale(1) rotate(360deg);
+    transform: translate(-50%, -50%) scale(1) rotate(360deg);
   }
 
   &__close-button {
